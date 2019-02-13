@@ -1,0 +1,12 @@
+name = "xkcd"
+
+[binary]
+os = "ubuntu:16.04"
+cmd = "./xkcd"
+
+[[binary.executable]]
+path = "xkcd"
+public = true
+
+[[binary.readonly]]
+path = "flag"

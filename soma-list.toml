@@ -1,0 +1,6 @@
+problems = [
+    # baby
+    "baby/xkcd",
+    "baby/r0pbaby",
+    "baby/babyecho"
+]

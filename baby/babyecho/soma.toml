@@ -1,0 +1,15 @@
+name = "babyecho"
+
+[binary]
+os = "ubuntu:16.04"
+cmd = "./babyecho"
+
+[[binary.executable]]
+path = "babyecho"
+public = true
+
+[[binary.readonly]]
+path = "flag"
+
+[[binary.readonly]]
+path = "README"

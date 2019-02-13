@@ -1,0 +1,12 @@
+name = "r0pbaby"
+
+[binary]
+os = "ubuntu:16.04"
+cmd = "./r0pbaby"
+
+[[binary.executable]]
+path = "r0pbaby"
+public = true
+
+[[binary.readonly]]
+path = "flag"
